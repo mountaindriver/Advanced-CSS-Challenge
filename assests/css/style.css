@@ -1,0 +1,112 @@
+:root{
+    --lightgrey: #13293d;
+    --title: sans-serfit;
+    --blue: #5897f5fd;
+    --cardheader: rgb(194, 4, 194);
+    --cardtext: lightpink;
+    --title: serif;
+    --text: sans-serif;
+    --textcolor: #00232e;
+    --backgroundcolor: rgb(243, 243, 243);
+    --white: #fff;
+    --h1fontsize: 30px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: start;
+    background: var(--lightgrey);
+    color: #fff;
+  }
+header nav a{
+    justify-content: end;
+    align-content: center;
+    text-align: end;
+    color: var(--white);
+}
+
+header h1 {
+    padding: 5px 20px 5px 20px
+}
+
+header a{
+    display: inline;
+    align-items: flex-end;
+    justify-content: end;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+main img{
+    max-height: 200px;
+    min-width: fit-content;
+    
+}
+
+main aside{
+    width: 10%;
+    padding-left: 15px;
+    margin: 15px 10px 100px 10px;
+    float: left;
+    font-style: Bold;
+    font-size: var(--h1fontsize);
+    color: var(--lightgrey);
+}
+
+
+main pre{
+    justify-content: end;
+}
+
+.aboutme {
+    background-color: var(--backgroundcolor);
+}
+
+#work {
+    display: flex;
+    color: var(--textcolor);
+    order: 2;
+}
+
+pre{
+    font-family: var(--text);
+}
+
+.card{
+    flex-grow: 2;
+    flex-wrap: wrap;
+    padding: 2px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.card.big{
+    
+}
+
+.card h4{
+    background-color: var(--cardheader);
+    padding: 
+}
+
+.card h6{
+    background-color: lightpink;
+}
+
+footer {
+    background-color: var(--lightgrey);
+    padding: 20px;
+}
